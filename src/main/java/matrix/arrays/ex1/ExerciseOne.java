@@ -7,7 +7,7 @@ public class ExerciseOne {
 
         for (int j = 0; j < numberColumn; j++) {
             for (int i = 0; i < numberRow; i++) {
-                if (j % 2 == 0  && array[0][j] > array[numberColumn - 1][j]) {
+                if (j % 2 == 0 && array[0][j] > array[numberColumn - 1][j]) {
                     System.out.print(array[i][j] + "\t");
                 }
             }
