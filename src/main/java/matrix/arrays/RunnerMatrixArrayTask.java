@@ -7,6 +7,7 @@ import matrix.arrays.ex12.ExerciseTwelve;
 import matrix.arrays.ex13.ExerciseThirteen;
 import matrix.arrays.ex14.ExerciseFourteen;
 import matrix.arrays.ex15.ExerciseFifteen;
+import matrix.arrays.ex16.ExerciseSixteen;
 import matrix.arrays.ex2.ExerciseTwo;
 import matrix.arrays.ex3.ExerciseThree;
 import matrix.arrays.ex4.ExerciseFour;
@@ -126,6 +127,13 @@ public class RunnerMatrixArrayTask {
 
 
         System.out.println("\nЗадание 16:");
+        // expect
+        // 3	16	9	22	15
+        // 20	8	21	14	2
+        // 7	25	13	1	19
+        // 24	12	5	18	6
+        // 11	4	17	10	23
+        new ExerciseSixteen().function(5);
 
     }
 
