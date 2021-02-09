@@ -1,6 +1,6 @@
 package matrix.arrays.ex16;
 
-import static matrix.arrays.DifferentFunction.showArray;
+import static functions.DifferentFunction.showArray;
 
 public class ExerciseSixteen {
     public void function(int n) {

@@ -1,7 +1,7 @@
 package matrix.arrays.ex14;
 
+import static functions.DifferentFunction.showArray;
 import static java.lang.Math.random;
-import static matrix.arrays.DifferentFunction.showArray;
 
 public class ExerciseFourteen {
     public void function() {

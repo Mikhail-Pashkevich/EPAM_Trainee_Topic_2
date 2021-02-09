@@ -19,6 +19,8 @@ import matrix.arrays.ex9.ExerciseNine;
 
 import java.util.Scanner;
 
+import static functions.DifferentFunction.copyOf;
+
 public class RunnerMatrixArrayTask {
     public static void main(String[] args) {
 
@@ -135,16 +137,5 @@ public class RunnerMatrixArrayTask {
         // 11	4	17	10	23
         new ExerciseSixteen().function(5);
 
-    }
-
-    public static int[][] copyOf(int[][] array) {
-        int m = array.length;
-        int n = array[0].length;
-        int[][] newArray = new int[m][n];
-
-        for (int i = 0; i < m; i++) {
-            System.arraycopy(array[i], 0, newArray[i], 0, n);
-        }
-        return newArray;
     }
 }
