@@ -7,6 +7,7 @@ import line.arrays.sort.ex4.ExerciseFour;
 import line.arrays.sort.ex5.ExerciseFive;
 import line.arrays.sort.ex6.ExerciseSix;
 import line.arrays.sort.ex7.ExerciseSeven;
+import line.arrays.sort.ex8.ExerciseEight;
 
 import static functions.DifferentFunction.arraycopy;
 
@@ -48,6 +49,11 @@ public class RunnerSortArrayTask {
         System.out.println("\nЗадание 7:");
         new ExerciseSeven().function(array1, array2);
 
+
+        int[] numerator = {2, 2, 1, 6, 5, 4, 7};
+        int[] denominator = {1, 2, 3, 4, 5, 6, 7};
+        System.out.println("\nЗадание 8:");
+        new ExerciseEight().function(numerator, denominator);
 
     }
 }

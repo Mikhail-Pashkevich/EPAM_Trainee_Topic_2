@@ -23,14 +23,14 @@ public class DifferentFunction {
 
     public static void showArray(int[] array) {
         for (int number : array) {
-            System.out.print(number + "  ");
+            System.out.print(number + "\t");
         }
         System.out.println();
     }
 
     public static void showArray(double[] array) {
         for (double number : array) {
-            System.out.print(number + "  ");
+            System.out.print(number + "\t");
         }
         System.out.println();
     }
@@ -62,5 +62,9 @@ public class DifferentFunction {
             }
         }
         return 1;
+    }
+
+    public static int LCM(int a, int b) {
+        return a * b / GCF(a, b);
     }
 }
