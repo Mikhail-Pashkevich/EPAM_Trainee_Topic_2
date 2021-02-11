@@ -1,5 +1,7 @@
 package functions;
 
+import static java.lang.Math.max;
+
 public class DifferentFunction {
     public static void showArray(double[][] array) {
         for (double[] row : array) {
@@ -26,6 +28,13 @@ public class DifferentFunction {
         System.out.println();
     }
 
+    public static void showArray(double[] array) {
+        for (double number : array) {
+            System.out.print(number + "  ");
+        }
+        System.out.println();
+    }
+
     public static int[][] copyOf(int[][] array) {
         int m = array.length;
         int n = array[0].length;
@@ -46,4 +55,12 @@ public class DifferentFunction {
         return newArray;
     }
 
+    public static int GCF(int a, int b) {
+        for (int i = max(a, b); i > 1; i--) {
+            if (a % i == 0 && b % i == 0) {
+                return i;
+            }
+        }
+        return 1;
+    }
 }
